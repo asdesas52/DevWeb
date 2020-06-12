@@ -1,19 +1,9 @@
-h1{
-    font-size: 18pt;
+.animtest, .noanimtest { 
+    display: none;
 }
-
-label{
-    width: 120px;
-    text-align: right; 
-    display: inline-block;
-    vertical-align: baseline
+.cssanimations .animtest { 
+    display:block;
 }
-
-@media only screen and (max-width: 480px) {
-    label{
-        width: 120px;
-        text-align: left; 
-        display: block;
-        vertical-align: baseline
-    }
+.no-cssanimations .noanimtest { 
+    display:block;
 }
